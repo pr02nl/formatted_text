@@ -1,4 +1,4 @@
-library formatted_text;
+library;
 
 export 'src/constants/defaults.dart';
 export 'src/controllers/context_menu_builder.dart';
