@@ -5,9 +5,9 @@ import '../utils/utils.dart';
 
 class FormattedTextEditingController extends TextEditingController {
   FormattedTextEditingController({
-    String? text,
+    super.text,
     this.formatters,
-  }) : super(text: text);
+  });
 
   FormattedTextEditingController.fromValue(
     TextEditingValue? value, {

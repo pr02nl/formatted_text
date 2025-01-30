@@ -8,7 +8,7 @@ import '../utils/utils.dart';
 class FormattedText extends StatelessWidget {
   const FormattedText(
     this.data, {
-    Key? key,
+    super.key,
     this.formatters,
     this.style,
     this.strutStyle,
@@ -22,7 +22,7 @@ class FormattedText extends StatelessWidget {
     this.semanticsLabel,
     this.textWidthBasis,
     this.textHeightBehavior,
-  }) : super(key: key);
+  });
 
   /// The text to display.
   ///

@@ -62,7 +62,7 @@ class FormattedTextSelectionControls extends MaterialTextSelectionControls {
 
 class FormattedTextToolbar extends StatefulWidget {
   const FormattedTextToolbar({
-    Key? key,
+    super.key,
     required this.anchorAbove,
     required this.anchorBelow,
     required this.clipboardStatus,
@@ -72,7 +72,7 @@ class FormattedTextToolbar extends StatefulWidget {
     required this.handleSelectAll,
     this.items,
     required this.delegate,
-  }) : super(key: key);
+  });
 
   final Offset anchorAbove;
   final Offset anchorBelow;
