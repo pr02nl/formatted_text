@@ -72,7 +72,7 @@ mixin FormattedTextUtils {
                 text: lastFormatter.patternChars,
                 style: currentStyle.copyWith(
                     color: (currentStyle.color ?? Theme.of(context).hintColor)
-                        .withOpacity(0.2)),
+                        .withValues(alpha: 0.2)),
               ));
             }
 
@@ -140,7 +140,7 @@ mixin FormattedTextUtils {
               text: formatter.patternChars,
               style: newStyle.copyWith(
                   color: (newStyle.color ?? Theme.of(context).hintColor)
-                      .withOpacity(0.2)),
+                      .withValues(alpha: 0.2)),
             ));
           }
 
